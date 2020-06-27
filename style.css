@@ -1,0 +1,12 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, #F93D66, #6D47D9);
+}
+
+
+.img {
+    height: 200px;
+}
