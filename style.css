@@ -1,12 +1,51 @@
-html {
-    box-sizing: border-box;
-}
+
 
 body {
     background: linear-gradient(to right, #F93D66, #6D47D9);
+    display: grid;
+    grid-template-areas: 'sidebar main';
+    grid-template-columns: 300px 1fr;
 }
 
+.sidebar {
+    grid-area: sidebar;
+    position: fixed;
+    width: 250px;
+
+    height: 100vh;
+    background-color: white;
+    padding: 25px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+nav {
+}
+
+.main {
+    grid-area: main;
+    margin: 50px;
+    
+}
+
+.logo {
+    
+}
+
+li {
+    list-style-type: none;
+
+}
 
 .img {
     height: 200px;
+}
+
+.center {
+    text-align: center;
+}
+.white {
+    color: white;
 }
