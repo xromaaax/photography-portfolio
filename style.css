@@ -36,6 +36,8 @@ nav {
 
 li {
     list-style-type: none;
+    font-family: 'Abril Fatface', cursive;
+    margin-bottom: 20px;
 }
 
 li a {
@@ -61,4 +63,8 @@ li a:hover {
 
 .fa {
     margin-right: 16px;
+}
+
+.fa:hover {
+    color: #F7A29C;
 }
